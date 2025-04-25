@@ -600,3 +600,4 @@ class InexactMatchingProblem(MatchingProblemBase):
 
 # Default MatchingProblem to be inexact
 MatchingProblem = InexactMatchingProblem
+ 

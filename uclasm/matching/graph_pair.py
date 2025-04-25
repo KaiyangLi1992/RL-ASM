@@ -351,4 +351,4 @@ if __name__ == "__main__" :
                                 file_source_col="Source",
                                 file_target_col="Target")   
 
-    pair_test = GraphPair(g1=tmplt,g2=world) 
+    pair_test = GraphPair(g1=tmplt,g2=world)  

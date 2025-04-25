@@ -27,3 +27,4 @@ class InferLinksHead(torch.nn.Module):
         x = (x[0] * x[1]).sum(1)
         y = self.predictor(x.unsqueeze(1))
         return y, batch.y
+ 

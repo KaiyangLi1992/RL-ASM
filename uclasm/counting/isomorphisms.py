@@ -226,3 +226,4 @@ def find_isomorphisms(smp, *, k=-1, verbose=True, **kwargs):
 def print_isomorphisms(smp, *, verbose=True):
     """ Prints the list of isomorphisms """
     print(find_isomorphisms(smp, verbose=verbose))
+ 

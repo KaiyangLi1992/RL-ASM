@@ -103,3 +103,4 @@ class TestFilters:
     def test_run_filters(self, smp):
         filters.run_filters(smp)
         assert np.sum(smp.candidates) == 3
+ 

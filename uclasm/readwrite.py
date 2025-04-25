@@ -164,3 +164,4 @@ def load_igraph(filename):
             graphs.append(graph)
 
     return graphs
+ 

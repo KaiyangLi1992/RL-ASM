@@ -132,3 +132,4 @@ for i in range(70000, 100000, 2000):
     print(acc_7)
     print(acc_15)
 
+ 

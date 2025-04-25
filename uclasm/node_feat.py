@@ -191,4 +191,4 @@ def obtain_nfe_feat_idx_div(dataset, natts):
         return {}
 
     nfe = NodeFeatureEncoder(gs, node_feat_name)
-    return nfe.feat_idx_dic
+    return nfe.feat_idx_dic 

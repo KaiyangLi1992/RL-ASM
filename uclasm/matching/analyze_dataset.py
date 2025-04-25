@@ -38,3 +38,4 @@ print(sum(edge_num_g2)/len(edge_num_g2))
 
 
 
+ 

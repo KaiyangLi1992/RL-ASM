@@ -19,3 +19,4 @@ def postproc_graph_pairs_assign_node_embeds(node_embed_list, node_embed_name,
         # Update node embeddings.
         pair.g1.__setattr__(node_embed_name, node_embed_list[2 * i])
         pair.g2.__setattr__(node_embed_name, node_embed_list[2 * i + 1])
+ 

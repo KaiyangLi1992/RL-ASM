@@ -295,4 +295,4 @@ class DynamicBilinear(torch.nn.Module):
                 torch.matmul(
                     x.view(1, *x.shape), self.weight
                 ), y.view(1, *y.shape).transpose(-1, -2)
-            ) + self.bias.view(-1, 1, 1)
+            ) + self.bias.view(-1, 1, 1) 

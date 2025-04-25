@@ -17,3 +17,4 @@ class LinearEdgeEncoder(torch.nn.Module):
     def forward(self, batch):
         batch.edge_attr = self.encoder(batch.edge_attr.view(-1, self.in_dim))
         return batch
+ 

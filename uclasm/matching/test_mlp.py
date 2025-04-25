@@ -17,3 +17,4 @@ group_counts = torch.bincount(index_tensor)
 expanded_means_pyg = torch.repeat_interleave(group_means, group_counts, dim=0)
 print(expanded_means_pyg)
 print(expanded_means)
+ 

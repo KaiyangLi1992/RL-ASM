@@ -135,4 +135,4 @@ class DVN(torch.nn.Module):
     def create_norm_vec(self, gq, gt):
         norm_q = torch.tensor([gq.degree(nid) + 1e-8 for nid in range(gq.number_of_nodes())], dtype=torch.float32, device=FLAGS.device).view(-1,1)
         norm_t = torch.tensor([gt.degree(nid) + 1e-8 for nid in range(gt.number_of_nodes())], dtype=torch.float32, device=FLAGS.device).view(-1,1)
-        return norm_q, norm_t
+        return norm_q, norm_t 

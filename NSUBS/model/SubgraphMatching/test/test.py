@@ -337,3 +337,4 @@ if __name__ == '__main__':
     input_query_graph_folder_path = f'{dir_path}/query_graph/'
 
     check_correctness(input_binary_path, input_data_graph_path, input_query_graph_folder_path, input_expected_results)
+ 

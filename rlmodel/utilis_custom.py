@@ -80,3 +80,4 @@ if __name__ == "__main__":
     
     print(sum(sum(new_local_costs)))
 
+ 

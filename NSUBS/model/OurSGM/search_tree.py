@@ -496,3 +496,4 @@ class SearchNode:
 
     def search_depth(self):
         return 1 - len(self.nn_map) / self.gq.nx_graph.number_of_nodes()
+ 

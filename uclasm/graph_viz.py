@@ -41,3 +41,4 @@ def get_gv_graph(graph, eq_classes=None, with_node_labels=False, with_edge_label
     gv_graph.engine = 'fdp'
     return gv_graph
 
+ 

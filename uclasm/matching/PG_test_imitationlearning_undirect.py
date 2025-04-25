@@ -161,3 +161,4 @@ for i in range(0, 100000, 5000):
     print(checkpoint)
     print(average_acc)
 
+ 

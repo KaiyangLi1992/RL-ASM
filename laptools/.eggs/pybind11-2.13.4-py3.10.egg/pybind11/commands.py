@@ -37,3 +37,4 @@ def get_pkgconfig_dir() -> str:
 
     msg = "pybind11 not installed, installation required to access the pkgconfig files"
     raise ImportError(msg)
+ 

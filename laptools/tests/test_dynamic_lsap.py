@@ -86,3 +86,4 @@ def test_solve_lsap_with_removed_col():
             np.array_equal(sub_col_idx_1, col4row)
             or sub_cost_matrix_sum == cost_matrix[row_idx_1, col4row].sum()
         )
+ 

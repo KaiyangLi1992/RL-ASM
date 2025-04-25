@@ -42,3 +42,4 @@ def from_local_bounds(smp):
 
     # TODO: should the global costs for local costs introduced by neighborhood
     # constraint be computed in the same way?
+ 

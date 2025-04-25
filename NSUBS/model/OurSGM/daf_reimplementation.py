@@ -246,4 +246,4 @@ def _get_imsm_paths():
 if __name__ == '__main__':
     main()
     saver.log_info(f'Total time: {timer.time_and_clear()}')
-    saver.close()
+    saver.close() 

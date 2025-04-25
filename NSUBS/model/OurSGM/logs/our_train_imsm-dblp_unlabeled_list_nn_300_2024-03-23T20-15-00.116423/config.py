@@ -405,3 +405,4 @@ if FLAGS.dataset == 'EMAIL':
     FLAGS.dim = 47
 if FLAGS.dataset == 'MSRC_21':
     FLAGS.dim = 27
+ 

@@ -109,4 +109,4 @@ def create_batch_data(pre_processed_li, batch_size=1):
                                                 ind_li)
     data_loader = DataLoader(data_for_model_label, batch_size=batch_size, collate_fn=my_collate_fn)
     batch = next(iter(data_loader))
-    return batch, data_for_model_label
+    return batch, data_for_model_label 

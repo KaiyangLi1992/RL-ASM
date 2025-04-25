@@ -27,3 +27,4 @@ class GNNStackStage(nn.Module):
         if cfg.gnn.l2norm:
             batch.x = F.normalize(batch.x, p=2, dim=-1)
         return batch
+ 

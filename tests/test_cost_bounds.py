@@ -108,3 +108,4 @@ class TestEdgewiseCostBound:
             for j in range(3):
                 assert(final_cost[i][j] == smp_noisy_bidirectional.local_costs[i][j])
         assert(np.sum(smp_noisy_bidirectional.candidates()) == 9)
+ 

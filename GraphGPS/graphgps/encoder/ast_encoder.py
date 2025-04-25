@@ -83,3 +83,4 @@ class ASTEdgeEncoder(torch.nn.Module):
                     self.embedding_direction(batch.edge_attr[:, 1])
         batch.edge_attr = embedding
         return batch
+ 

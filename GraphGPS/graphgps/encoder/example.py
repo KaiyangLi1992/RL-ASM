@@ -48,3 +48,4 @@ class ExampleEdgeEncoder(torch.nn.Module):
 
         batch.edge_attr = bond_embedding
         return batch
+ 

@@ -168,3 +168,4 @@ class GlobalSearchParams:
         return self.gq, self.gt, self.CS, self.daf_path_weights,\
                self.model, self.graph_filter, self.override_use_heuristic, \
                self.eps, self.align_matrix
+ 

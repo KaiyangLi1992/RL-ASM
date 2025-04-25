@@ -122,3 +122,4 @@ class MalNetTiny(InMemoryDataset):
 
     def get_idx_split(self):
         return torch.load(self.processed_paths[1])
+ 

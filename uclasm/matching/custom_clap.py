@@ -32,3 +32,4 @@ cost = np.array(cost)
 cost_clap1 = clap.costs(cost)
 cost_clap2 = naive_costs(cost)
 
+ 

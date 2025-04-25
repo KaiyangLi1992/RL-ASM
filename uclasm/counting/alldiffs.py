@@ -107,3 +107,4 @@ def count_alldiffs(tnode_to_cands):
     count = recursive_alldiff_counter(tnode_to_eqids, eq_class_sizes)
 
     return count
+ 

@@ -114,3 +114,4 @@ class TypeDictEdgeEncoder(torch.nn.Module):
     def forward(self, batch):
         batch.edge_attr = self.encoder(batch.edge_attr)
         return batch
+ 

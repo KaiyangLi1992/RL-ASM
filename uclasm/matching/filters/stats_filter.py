@@ -16,3 +16,4 @@ def stats_filter(exact_smp, changed_cands=None, verbose=False, **kwargs):
 
     candidates = exact_smp.candidates
     candidates[~is_cand] = False
+ 

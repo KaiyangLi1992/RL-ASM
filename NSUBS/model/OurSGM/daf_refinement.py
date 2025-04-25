@@ -346,3 +346,4 @@ if __name__ == '__main__':
     pprint(CS)
     pprint(node_ordering)
     pprint(get_daf_path_weights(G1, G2, CS, node_ordering))
+ 

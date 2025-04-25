@@ -273,3 +273,4 @@ class GraphormerEncoder(torch.nn.Sequential):
         if cfg.posenc_GraphormerBias.node_degrees_only:  # No attn. bias encoder
             encoders = encoders[1:]
         super().__init__(*encoders)
+ 

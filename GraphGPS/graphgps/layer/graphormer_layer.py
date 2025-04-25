@@ -47,3 +47,4 @@ class GraphormerLayer(torch.nn.Module):
         x = self.dropout(x) + data.x
         data.x = self.mlp(x) + x
         return data
+ 

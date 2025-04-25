@@ -62,4 +62,4 @@ optim:
   base_lr: 0.0001
   max_epoch: 30
   scheduler: cosine_with_warmup
-  num_warmup_epochs: 2
+  num_warmup_epochs: 2 

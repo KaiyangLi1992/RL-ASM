@@ -49,3 +49,4 @@ class EquivStableLapPENodeEncoder(torch.nn.Module):
         batch.pe_EquivStableLapPE = pos_enc
 
         return batch
+ 

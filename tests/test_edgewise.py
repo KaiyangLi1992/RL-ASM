@@ -146,3 +146,4 @@ class TestEdgewiseCostBound:
                 print(type(inverse[idx]))
                 print(unique_attrs)
                 assert unique_attrs[inverse[idx], idx2] == row[attr]
+ 

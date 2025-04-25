@@ -133,3 +133,4 @@ class TestGlobalCostArray:
         assert isinstance(sliced_array, GlobalCostsArray)
         assert sliced_array.global_cost_threshold == 3
         assert sliced_array.shape == sliced_array.candidates.shape
+ 

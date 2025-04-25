@@ -80,4 +80,4 @@ class PreEncoderMLP(torch.nn.Module):
     def forward(self, Xq, Xt, *args):
         Xq = self.mlp_q(Xq)
         Xt = self.mlp_t(Xt)
-        return Xq, Xt
+        return Xq, Xt 

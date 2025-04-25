@@ -66,4 +66,4 @@ class RolloutBuffer:
             coordinates = [(action[0], col) for col in non_zero_columns]
             state.action_space = coordinates
             self.states.append(state)    
-    
+     

@@ -262,3 +262,4 @@ class GPSLayer(nn.Module):
             f'global_model_type={self.global_model_type}, ' \
             f'heads={self.num_heads}'
         return s
+ 

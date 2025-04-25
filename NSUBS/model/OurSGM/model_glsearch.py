@@ -151,3 +151,4 @@ class GLS(torch.nn.Module):
         bdu_u_li = list(set(gq.nodes()) - candidate_us - set(nn_map.keys()) - {u})
         bdu_v_li = list(set(gt.nodes()) - candidate_vs - set(nn_map.values()) - {v})
         return bdc_li_u_li_v_li, bdu_u_li, bdu_v_li
+ 

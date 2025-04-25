@@ -399,3 +399,4 @@ if FLAGS.dataset == 'SYNTHETIC':
     FLAGS.dim = 13
 if FLAGS.dataset == 'EMAIL':
     FLAGS.dim = 47
+ 

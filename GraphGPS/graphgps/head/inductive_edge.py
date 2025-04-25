@@ -153,3 +153,4 @@ class GNNInductiveEdgeHead(nn.Module):
                     'hits@3_list': hits3_list,
                     'hits@10_list': hits10_list,
                     'mrr_list': mrr_list}
+ 

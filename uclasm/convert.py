@@ -31,3 +31,4 @@ def nodelist_from_edgelist(edgelist):
     nodelist.drop_duplicates(inplace=True, ignore_index=True)
 
     return nodelist
+ 

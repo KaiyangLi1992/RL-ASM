@@ -206,3 +206,4 @@ struct compare_buffer_info<T, detail::enable_if_t<std::is_integral<T>::value>> {
 
 PYBIND11_NAMESPACE_END(detail)
 PYBIND11_NAMESPACE_END(PYBIND11_NAMESPACE)
+ 

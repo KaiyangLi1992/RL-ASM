@@ -43,4 +43,4 @@ result = A * B  # 结果的尺寸为 3x5x32
 # 沿着第二个维度求和，得到最终结果
 result_final = result.sum(dim=1)  # 最终结果的尺寸为 3x32
 
-print(result_final.shape)  # 输出结果的形状
+print(result_final.shape)  # 输出结果的形状 

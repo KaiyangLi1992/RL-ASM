@@ -50,3 +50,4 @@ print("std:", std_dev)
 # times_infer = len(times_infer)/len(steps)
 # print(f'How many times to infer each graph: {str(times_infer)}')
 
+ 

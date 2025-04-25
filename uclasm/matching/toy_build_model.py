@@ -19,3 +19,4 @@ model = Model(train_test_data).to(FLAGS.device)
 print(model)
 saver.log_info('Model created: {}'.format(tm.time_and_clear()))
 trained_model = run(train_test_data, saver, model)
+ 

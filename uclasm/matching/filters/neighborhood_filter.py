@@ -81,3 +81,4 @@ def neighborhood_filter(exact_smp, *,
         row_idxs, col_idxs = optimize.linear_sum_assignment(lap_mat)
         if lap_mat[row_idxs, col_idxs].sum() > 0:
             candidates[tnode_idx, wnode_idx] = 0
+ 

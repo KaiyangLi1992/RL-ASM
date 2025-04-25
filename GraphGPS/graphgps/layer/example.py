@@ -102,3 +102,4 @@ class ExampleConv2(nn.Module):
     def forward(self, batch):
         batch.x = self.model(batch.x, batch.edge_index)
         return batch
+ 

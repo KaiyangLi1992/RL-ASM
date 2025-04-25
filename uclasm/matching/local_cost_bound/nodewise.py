@@ -19,3 +19,4 @@ def nodewise(smp):
         smp.tmplt.in_out_degrees,
         smp.world.in_out_degrees
     )
+ 

@@ -17,3 +17,4 @@ def costs(cost_matrix):
             sub_total_cost = sub_cost_matrix[row_idx, col_idx].sum()
             total_costs[i, j] = cost_matrix[i, j] + sub_total_cost
     return total_costs
+ 

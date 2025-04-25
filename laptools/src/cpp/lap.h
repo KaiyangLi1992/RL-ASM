@@ -256,3 +256,4 @@ void lap(int nr, int nc, const cost *restrict assign_cost,
   }
 
 }
+ 

@@ -146,4 +146,4 @@ class Bidomain(object):
         self.bid = bid
 
     def __len__(self):
-        return len(self.left) * len(self.right)
+        return len(self.left) * len(self.right) 

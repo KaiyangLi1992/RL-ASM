@@ -139,3 +139,4 @@ for i in range(0, 1200000, 2000):
     print(checkpoint)
     print(average_cost)
 
+ 

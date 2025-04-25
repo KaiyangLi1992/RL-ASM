@@ -197,3 +197,4 @@ if __name__ == '__main__':
     logger = EmbeddingLogger()
     logger.plot(X_q, X_t, g_q, g_t, nn_map, candidate_map, filter_g_t=False)  # override=override)
     print('done!')
+ 

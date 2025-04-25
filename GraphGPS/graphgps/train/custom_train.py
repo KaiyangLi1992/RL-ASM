@@ -383,3 +383,4 @@ def log_attn_weights(loggers, loaders, model, optimizer=None, scheduler=None):
     torch.save(output, save_file)
 
     logging.info(f'Done! took: {time.perf_counter() - start_time:.2f}s')
+ 

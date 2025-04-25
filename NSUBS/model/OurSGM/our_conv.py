@@ -202,3 +202,4 @@ class MyGlobalAttention(torch.nn.Module):
         return '{}(gate_nn={}, nn={})'.format(self.__class__.__name__,
                                               self.gate_nn, self.nn)
 
+ 

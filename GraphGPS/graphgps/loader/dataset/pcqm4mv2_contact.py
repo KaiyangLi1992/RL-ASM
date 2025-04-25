@@ -540,3 +540,4 @@ if __name__ == '__main__':
     print(dataset.data.x.shape)
     print(dataset[100])
     print(dataset.get_idx_split('shuffle'))
+ 

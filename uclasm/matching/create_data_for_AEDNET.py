@@ -26,3 +26,4 @@ with open('./data/SYNTHETIC/for_AEDNET/SYNTHETIC_pairs_noiseratio_5.0.pkl','wb')
 with open('./data/SYNTHETIC/for_AEDNET/SYNTHETIC_graph_dict_noiseratio_5.0.pkl','wb') as f:
     pickle.dump(graph_dict,f)
 
+ 

@@ -226,3 +226,4 @@ def costs(cost_matrix):
     total_costs[row_idxs, col4row] = lsap_total_cost
 
     return total_costs
+ 

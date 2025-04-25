@@ -411,4 +411,4 @@ if FLAGS.dataset == 'AIDS':
 elif FLAGS.dataset == 'SYNTHETIC':
     FLAGS.subgraph_node_num = '10_20'
 else:
-    FLAGS.subgraph_node_num = '16_32'
+    FLAGS.subgraph_node_num = '16_32' 

@@ -41,3 +41,4 @@ class Performer(torch.nn.Module):
         for module in self.children():
             batch = module(batch)
         return batch
+ 

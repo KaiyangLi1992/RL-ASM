@@ -110,4 +110,4 @@ def create_adj_set(g):
         v, w = e[0].item(), e[1].item()
         adj_list[v].add(k)
         adj_list[w].add(k)
-    return adj_list
+    return adj_list 

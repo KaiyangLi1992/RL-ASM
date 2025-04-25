@@ -66,4 +66,4 @@ def _save_plots(graphs, graphs_colors, graphs_pos, graphs_feats,
     ax.tick_params(axis="y", labelsize=20)
     file_name = join(dir, fn_degrees)
     plt.savefig(file_name, format="png")
-    plt.close()
+    plt.close() 

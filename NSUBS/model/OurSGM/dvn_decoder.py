@@ -532,4 +532,4 @@ class TransformerAttention(torch.nn.Module):
             ).view(-1,1)
         out = torch.sum(torch.softmax(att, dim=0) * value, dim=0)
         # out = torch.sum(att * value, dim=0)
-        return out
+        return out 

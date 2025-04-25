@@ -23,4 +23,4 @@ test_dataset.gs[0].nxgraph.init_x = train_dataset.gs[0].nxgraph.init_x
 
 with open('./data/Email_testset_dens_0.2_n_8_num_50_10_05_new.pkl','wb') as f:
     pickle.dump(test_dataset,f)
-   
+    

@@ -15,3 +15,4 @@ class DummyEdgeEncoder(torch.nn.Module):
         dummy_attr = batch.edge_index.new_zeros(batch.edge_index.shape[1])
         batch.edge_attr = self.encoder(dummy_attr)
         return batch
+ 

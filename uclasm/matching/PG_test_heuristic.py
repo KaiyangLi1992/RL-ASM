@@ -90,3 +90,4 @@ average_cost = test_checkpoint_model(test_dataset)
     # print(checkpoint)
 print(average_cost)
 
+ 

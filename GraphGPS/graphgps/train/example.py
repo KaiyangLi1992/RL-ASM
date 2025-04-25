@@ -74,3 +74,4 @@ def train_example(loggers, loaders, model, optimizer, scheduler):
         clean_ckpt()
 
     logging.info('Task done, results saved in %s', cfg.run_dir)
+ 

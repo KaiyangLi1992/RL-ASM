@@ -63,3 +63,4 @@ git push --set-upstream origin stable -f
 ```
 
 This will release a new package version on Git + GitHub and publish to PyPI.
+ 

@@ -61,3 +61,4 @@ def create_act(act, num_parameters=None):
         return nn.ELU()
     else:
         raise ValueError('Unknown activation function {}'.format(act))
+ 

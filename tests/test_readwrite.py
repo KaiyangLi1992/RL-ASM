@@ -45,3 +45,4 @@ class TestLoadIgraph:
         assert test_graphs[0].adjs[1].A.tolist() == adj0_1
         assert test_graphs[1].adjs[0].A.tolist() == adj1_0
         assert test_graphs[1].adjs[1].A.tolist() == adj1_1
+ 

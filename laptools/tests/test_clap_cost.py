@@ -170,3 +170,4 @@ class TestClap:
         # for i in range(num_rows):
         #     for j in range(num_cols):
         #         assert clap.cost(i, j, cost_matrix) == expected_global_costs[i, j]
+ 

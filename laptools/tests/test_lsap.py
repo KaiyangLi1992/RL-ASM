@@ -121,3 +121,4 @@ def test_linear_sum_assignment_against_scipy():
 
         assert_array_equal(row_ind_1, row_ind_2)
         assert_array_equal(col_ind_1, col_ind_2)
+ 

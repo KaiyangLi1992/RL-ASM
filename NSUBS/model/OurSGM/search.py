@@ -1120,3 +1120,4 @@ def _get_unique_node_solutions(solutions):
         node_set = frozenset(sol.values())
         rtn.add(node_set)
     return rtn
+ 

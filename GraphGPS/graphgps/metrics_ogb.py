@@ -115,3 +115,4 @@ def eval_F1(seq_ref, seq_pred):
     return {'precision': np.average(precision_list),
             'recall': np.average(recall_list),
             'F1': np.average(f1_list)}
+ 

@@ -77,3 +77,4 @@ def smp_noisy():
 #     def test_run_filters_noisy(self, smp_noisy):
 #         filters.run_filters(smp_noisy)
 #         assert np.sum(smp_noisy.candidates()) == 5
+ 

@@ -495,3 +495,4 @@ def greedy_best_k_matching_recursive(orig_smp, k=1, nodewise=True, edgewise=True
                                       k=k, nodewise=nodewise, edgewise=edgewise,
                                       solutions=solutions, verbose=verbose)
     return solutions
+ 

@@ -712,3 +712,4 @@ struct type_caster<Type, enable_if_t<is_eigen_sparse<Type>::value>> {
 
 PYBIND11_NAMESPACE_END(detail)
 PYBIND11_NAMESPACE_END(PYBIND11_NAMESPACE)
+ 

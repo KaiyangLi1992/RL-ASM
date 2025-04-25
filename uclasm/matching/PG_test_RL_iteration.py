@@ -161,3 +161,4 @@ records = test_checkpoint_model(checkpoint,test_dataset)
 with open(f'records_{FLAGS.dataset}_noiseratio_{FLAGS.noiseratio}_RL_iteration.pkl','wb') as f:
     pickle.dump(records,f)
 
+ 

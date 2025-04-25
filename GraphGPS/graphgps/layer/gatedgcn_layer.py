@@ -153,3 +153,4 @@ class GatedGCNGraphGymLayer(nn.Module):
 
     def forward(self, batch):
         return self.model(batch)
+ 

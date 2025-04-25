@@ -820,3 +820,4 @@ class_<Map, holder_type> bind_map(handle scope, const std::string &name, Args &&
 }
 
 PYBIND11_NAMESPACE_END(PYBIND11_NAMESPACE)
+ 

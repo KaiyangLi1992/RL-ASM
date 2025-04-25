@@ -178,3 +178,4 @@ class TestIsomorphisms:
         assert np.sum(smp_overlapping_cands.candidates) == 7
         count = count_isomorphisms(smp_overlapping_cands, verbose=True)
         assert count == 6
+ 

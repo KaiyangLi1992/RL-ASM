@@ -21,3 +21,4 @@ class ExampleNodeHead(nn.Module):
         batch = self.layer_post_mp(batch)
         pred, label = self._apply_index(batch)
         return pred, label
+ 

@@ -231,3 +231,4 @@ def iterate_to_convergence(smp, reduce_world=True, nodewise=False,
             smp.fixed_costs[non_cand_mask] = float("inf")
     if verbose:
         print(smp)
+ 

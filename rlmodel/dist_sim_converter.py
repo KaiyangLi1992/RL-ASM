@@ -41,3 +41,4 @@ def sim_to_dist(sim, kernel):
 def _get_exp_kernel_scale(kernel):
     scale = float(kernel.split('exp_')[1])  # TODO: check
     return scale
+ 

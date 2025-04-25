@@ -220,3 +220,4 @@ setup(
     version="0.2.6",
     zip_safe=False,
 )
+ 

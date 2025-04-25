@@ -137,4 +137,4 @@ def relabel_graphs(gq, gt):
     random.shuffle(gt_new)
     gq = nx.relabel_nodes(gq, {old:new for (old,new) in zip(gq.nodes(), gq_new)})
     gt = nx.relabel_nodes(gt, {old:new for (old,new) in zip(gt.nodes(), gt_new)})
-    return gq, gt
+    return gq, gt 

@@ -100,3 +100,4 @@ class BioSNAPDataset(InMemoryDataset):
 
     def __repr__(self):
         return 'BioSNAP-{}({})'.format(self.name, len(self))
+ 

@@ -28,3 +28,4 @@ min_true_row_index_original = np.where(exclude_mask)[0][min_true_row_index_filte
 
 # 输出结果
 print("排除了 [x, y, z] 后，原始矩阵中True值最少的行索引:", min_true_row_index_original)
+ 

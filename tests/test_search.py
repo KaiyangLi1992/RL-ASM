@@ -189,3 +189,4 @@ class TestGreedySearchTwoTriangle:
         for i in range(3):
             assert ((0,i),(1,(i+1)%3)) in solution_matchings
             assert ((0,3+i),(1,3+(i+1)%3)) in solution_matchings
+ 

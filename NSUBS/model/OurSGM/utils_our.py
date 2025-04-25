@@ -587,4 +587,4 @@ def correspondence_li(two_dimensional_list):
 def split_tensor(t, corres):
     _, counts = torch.unique_consecutive(torch.tensor(corres).to(FLAGS.device), return_counts=True)
     split_tensors = torch.split(t, counts.tolist()) 
-    return  split_tensors
+    return  split_tensors 

@@ -1705,3 +1705,4 @@ class SingleBigBirdLayer(BigBirdModel):
 
         return encoder_outputs[attention_mask]
 
+ 

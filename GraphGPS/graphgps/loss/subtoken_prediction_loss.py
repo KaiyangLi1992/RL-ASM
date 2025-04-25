@@ -18,3 +18,4 @@ def subtoken_cross_entropy(pred_list, true):
         loss = loss / len(pred_list)
 
         return loss, pred_list
+ 

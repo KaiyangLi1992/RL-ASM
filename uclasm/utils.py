@@ -608,3 +608,4 @@ def node_has_type_attrib(g):
         if 'type' in d:  # TODO: needs to be fixed
             return True
     return False
+ 

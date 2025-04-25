@@ -752,3 +752,4 @@ inline PyObject *make_new_python_type(const type_record &rec) {
 
 PYBIND11_NAMESPACE_END(detail)
 PYBIND11_NAMESPACE_END(PYBIND11_NAMESPACE)
+ 

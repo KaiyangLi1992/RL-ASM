@@ -401,3 +401,4 @@ class SearchTree(object):
 
     def assign_val_to_edge(self, eid, key, val):
         self.nxgraph.edges[eid][key] = val
+ 

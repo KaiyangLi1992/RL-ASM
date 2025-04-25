@@ -33,4 +33,4 @@ def get_levels2u2v(CS):
     levels2u2v = defaultdict(dict)
     for u,level in u2levels.items():
         levels2u2v[level][u] = u2v[u]
-    return levels2u2v
+    return levels2u2v 

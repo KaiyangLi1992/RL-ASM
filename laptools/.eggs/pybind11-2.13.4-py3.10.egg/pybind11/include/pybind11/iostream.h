@@ -263,3 +263,4 @@ add_ostream_redirect(module_ m, const std::string &name = "ostream_redirect") {
 }
 
 PYBIND11_NAMESPACE_END(PYBIND11_NAMESPACE)
+ 

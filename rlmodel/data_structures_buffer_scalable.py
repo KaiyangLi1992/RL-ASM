@@ -151,3 +151,4 @@ class BinBuffer:
         # [aaa, bbb, bbb, ccc, aaa, abc, bbb]
         #   -> {aaa:2, bbb:3, ccc:1, abc:1}
         return dict(Counter(l))
+ 

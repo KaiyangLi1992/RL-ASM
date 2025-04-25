@@ -98,3 +98,4 @@ class Model(nn.Module):
             len(layers),
             '' if branch_name is None else ' for branch {}'.format(branch_name),
             ', '.join(l.__class__.__name__ for l in layers)))
+ 

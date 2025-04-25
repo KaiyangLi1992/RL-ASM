@@ -40,3 +40,4 @@ class SANGraphHead(nn.Module):
         batch.graph_feature = graph_emb
         pred, label = self._apply_index(batch)
         return pred, label
+ 

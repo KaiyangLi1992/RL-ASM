@@ -10,3 +10,4 @@ def graph_token_pooling(x, batch, *args):
     """
     x, _ = to_dense_batch(x, batch)
     return x[:, 0, :]
+ 

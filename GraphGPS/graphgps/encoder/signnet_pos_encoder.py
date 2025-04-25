@@ -277,3 +277,4 @@ class SignNetNodeEncoder(torch.nn.Module):
         if self.pass_as_var:
             batch.pe_SignNet = pos_enc
         return batch
+ 

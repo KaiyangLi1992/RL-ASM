@@ -79,3 +79,4 @@ def clip_graphs_to_size(data, size_limit=5000):
         if hasattr(data, 'edge_attr'):
             data.edge_attr = edge_attr
         return data
+ 

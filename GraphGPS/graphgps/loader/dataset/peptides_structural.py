@@ -163,3 +163,4 @@ if __name__ == '__main__':
     print(dataset[100])
     print(dataset[100].y)
     print(dataset.get_idx_split())
+ 

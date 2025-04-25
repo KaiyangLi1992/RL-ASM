@@ -153,4 +153,4 @@ for sim in sim_li:
     print(sim.size())
 
 for sim_latent in sim_latent_li:
-    print(sim_latent.size())
+    print(sim_latent.size()) 

@@ -184,3 +184,4 @@ def solve_lsap_with_removed_col(
     lapjv_augment(cost_matrix_copy, row_freed, col4row, row4col, v)
 
     return row4col, col4row, v
+ 

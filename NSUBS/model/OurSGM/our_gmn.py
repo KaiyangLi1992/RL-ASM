@@ -402,3 +402,4 @@ class GMNPropagator(nn.Module):
                              dim=1)  # N1 by D tensor where each row is sum_j(a_j * h_j)
         return g1x - sum_a1_h
 
+ 

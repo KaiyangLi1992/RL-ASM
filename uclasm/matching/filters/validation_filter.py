@@ -208,3 +208,4 @@ def validation_filter(exact_smp, *, in_signal_only=False,
             # Unmark the pair that was found
             marked[marked_tmplt_idx, marked_cand_idx] = False
             print("checked", marked_tmplt_idx, marked_cand_idx)
+ 

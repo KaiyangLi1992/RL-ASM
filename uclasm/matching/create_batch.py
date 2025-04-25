@@ -209,4 +209,4 @@ class Data_for_model(Dataset):
 
             return pyg_data_q, pyg_data_t, u, v_li, u2v_li, nn_map, ind,old_logprobs,advantages,rewards,old_states,old_actions
         else:
-            return pyg_data_q, pyg_data_t, u, v_li, u2v_li, nn_map, ind
+            return pyg_data_q, pyg_data_t, u, v_li, u2v_li, nn_map, ind 

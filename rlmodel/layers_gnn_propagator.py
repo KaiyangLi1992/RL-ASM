@@ -103,4 +103,4 @@ class GNNPropagator(nn.Module):
                 # TODO: adapt this for multiple bidomains!
                 BD_list = [BD[2 * bd_idx: 2 * bd_idx + 2] for bd_idx in action_space_data.selected_bd_indices]
 
-        return X1, X2, G, S, BD_list
+        return X1, X2, G, S, BD_list 

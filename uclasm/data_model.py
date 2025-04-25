@@ -259,4 +259,4 @@ class OurCocktailData(TorchDataset):
         FLAGS.select_node_pair = None  # for test
         self.gid1gid2_list = torch.tensor(
             sorted(rtn),
-            device=FLAGS.device)  # takes a while to move to GPU
+            device=FLAGS.device)  # takes a while to move to GPU 

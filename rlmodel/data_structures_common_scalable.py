@@ -138,3 +138,4 @@ class DQNInput:
             edge_index_pruned = torch.t(torch.t(edge_index))
 
         return edge_index_pruned
+ 

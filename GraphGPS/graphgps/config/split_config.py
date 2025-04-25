@@ -21,3 +21,4 @@ def set_cfg_split(cfg):
     # Choose to run multiple splits in one program execution, if set,
     # takes the precedence over cfg.dataset.split_index for split selection
     cfg.run_multiple_splits = []
+ 

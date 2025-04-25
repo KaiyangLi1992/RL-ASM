@@ -71,3 +71,4 @@ html_static_path = ['_static']
 # -- Hack from the internet --------------------------------------------------
 
 master_doc = 'index'
+ 

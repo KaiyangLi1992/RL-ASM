@@ -687,3 +687,4 @@ def add_geo_costs(smp, candidates, local_costs):
             local_costs[node1_idx, candidates[node1_idx]] += cand1_costs * node1_weight
         if node2_weight > 0:
             local_costs[node2_idx, candidates[node2_idx]] += cand2_costs * node2_weight
+ 

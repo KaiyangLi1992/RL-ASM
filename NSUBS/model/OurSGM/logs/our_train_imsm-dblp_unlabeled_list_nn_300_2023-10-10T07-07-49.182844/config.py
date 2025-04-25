@@ -608,3 +608,4 @@ parser.add_argument('--apply_norm', type=bool, default=True)
 parser.add_argument('--user', default=get_user())
 parser.add_argument('--hostname', default=get_host())
 FLAGS = parser.parse_args()
+ 

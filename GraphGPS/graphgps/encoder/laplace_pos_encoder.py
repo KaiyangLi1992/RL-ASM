@@ -140,3 +140,4 @@ class LapPENodeEncoder(torch.nn.Module):
         # if self.pass_as_var:
         #     batch.pe_LapPE = pos_enc
         return pos_enc
+ 

@@ -84,3 +84,4 @@ def edgewise_no_attrs(smp, changed_cands=None):
             new_local_costs[dst_idx][dst_is_cand] += dst_least_cost
     smp.local_costs = new_local_costs
     return new_local_costs
+ 

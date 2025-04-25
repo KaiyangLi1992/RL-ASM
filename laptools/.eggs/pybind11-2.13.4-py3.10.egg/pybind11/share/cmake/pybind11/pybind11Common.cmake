@@ -453,3 +453,4 @@ function(pybind11_strip target_name)
       COMMAND ${CMAKE_STRIP} ${x_opt} $<TARGET_FILE:${target_name}>)
   endif()
 endfunction()
+ 

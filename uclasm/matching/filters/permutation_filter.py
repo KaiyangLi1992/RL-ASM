@@ -112,3 +112,4 @@ def gac_filter(exact_smp, *,
             non_tmplt_array = np.ones(candidates.shape[0], dtype=np.bool)
             non_tmplt_array[list(tmplt_set)] = False
             candidates[np.ix_(non_tmplt_array, is_cand_row)] = False
+ 

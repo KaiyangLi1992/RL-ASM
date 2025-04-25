@@ -181,3 +181,4 @@ def plot_points(X, y, title='plot'):
     plt.axis('off')
     plt.savefig(join(saver.get_plot_dir(), f'{title}.png'))
     plt.close()
+ 

@@ -31,3 +31,4 @@ command = "SELECT SUM(UnitPrice) FROM Grocery"
 cursor.execute(command)
 print(cursor.fetchall())
 
+ 

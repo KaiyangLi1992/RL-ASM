@@ -21,3 +21,4 @@ class EmbeddingSaver(object):
         return gid1, gid2, frozenset(exhausted_v), frozenset(exhausted_w)
 
 EMBEDDING_SAVER = EmbeddingSaver()  # can be used by `from embedding_saver import EMBEDDING_SAVER`
+ 

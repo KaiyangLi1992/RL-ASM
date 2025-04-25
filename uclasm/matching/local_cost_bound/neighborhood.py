@@ -78,3 +78,4 @@ def neighborhood(smp):
         # TODO: Figure out the relationship between local_costs and global_costs
         # for neighborhood-local-costs.
         smp.local_costs[tnode_idx, wnode_idx] = lap_mat[row_idxs, col_idxs].sum()
+ 

@@ -90,3 +90,4 @@ def elimination_filter(exact_smp, *,
 
     if verbose:
         print("Elimination filter finished, skipped {} nodes".format(n_skipped))
+ 

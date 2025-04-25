@@ -17,3 +17,4 @@ def test_augment():
 
     assert row4col_copy.tolist() != row4col.tolist()
     assert col4row_copy.tolist() != col4row.tolist()
+ 

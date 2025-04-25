@@ -669,3 +669,4 @@ class Performer(nn.Module):
         batch.x = self.net(x, mask=mask, **kwargs)
         batch.x = batch.x[mask]
         return batch
+ 

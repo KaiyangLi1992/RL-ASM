@@ -661,3 +661,4 @@ class DVN(nn.Module):
 
     def _tile_vec(self, vec, dim0, dim1):
         return torch.cat(dim0 * [vec.view((1, dim1))])
+ 

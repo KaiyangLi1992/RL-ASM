@@ -45,3 +45,4 @@ class ExampleGNN(torch.nn.Module):
         batch = self.post_mp(batch)
 
         return batch
+ 

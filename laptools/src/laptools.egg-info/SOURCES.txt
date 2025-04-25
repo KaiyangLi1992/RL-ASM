@@ -33,4 +33,4 @@ tests/conftest.py
 tests/test_clap_cost.py
 tests/test_cpp.py
 tests/test_dynamic_lsap.py
-tests/test_lsap.py
+tests/test_lsap.py 

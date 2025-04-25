@@ -106,3 +106,4 @@ def topology_filter(exact_smp, *,
             if not any(dst_matches):
                 candidates[:,:] = False
                 break
+ 

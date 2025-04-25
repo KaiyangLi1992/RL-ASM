@@ -63,3 +63,4 @@ def count_isomorphisms(tmplt, world, candidates=None, verbose=False):
     iso_list = search.greedy_best_k_matching(smp, k=-1, verbose=verbose)
 
     return len(iso_list)
+ 

@@ -25,3 +25,4 @@ class Config:
 # Config.load_config("path/to/config.yaml")
 # config_data = Config.get_config()
 # gpu_id = Config.get("gpu_id")
+ 

@@ -498,3 +498,4 @@ class ParallelCompile:
 
     def __exit__(self, *args: Any) -> None:
         distutils.ccompiler.CCompiler.compile = self._old.pop()  # type: ignore[assignment]
+ 

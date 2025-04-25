@@ -197,4 +197,4 @@ def convert_node_labels_to_integers_with_mapping(G, first_label=0, ordering="def
 
 
 def _reverse_map(m):
-    return {v: k for k, v in m.items()}
+    return {v: k for k, v in m.items()} 

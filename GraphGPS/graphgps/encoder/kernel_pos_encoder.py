@@ -122,3 +122,4 @@ class ElstaticSENodeEncoder(KernelPENodeEncoder):
     """Electrostatic interactions Structural Encoding node encoder.
     """
     kernel_type = 'ElstaticSE'
+ 

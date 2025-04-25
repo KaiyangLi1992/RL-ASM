@@ -85,4 +85,4 @@ def _run_iter(cur_id, iter, num_iters_total, batch_data, model,
         saver.log_info('\tIter: {:03d} ({}), Loss: {:.7f}\t\t{}'.format(
             iter + 1, num_iters_total + 1, loss,
             iter_timer.time_and_clear()))
-    return loss
+    return loss 

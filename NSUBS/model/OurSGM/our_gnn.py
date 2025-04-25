@@ -33,3 +33,4 @@ class OurGMN(torch.nn.Module):
         Xq = scatter_add(att_q*self.mlp_value_q(Xq[edge_index_q[0]]), edge_index_q)
 
         return Xq, Xt
+ 
